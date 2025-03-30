@@ -1,0 +1,7 @@
+version: "3"
+services:
+  sass:
+    build: .
+    volumes:
+      - .:/app
+    command: ["sass", "--watch", "src/scss:dist/css"]
