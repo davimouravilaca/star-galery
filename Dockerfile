@@ -6,4 +6,4 @@ RUN npm install -g sass
 
 COPY . .
 
-CMD ["sass", "--watch", "src/scss:dist/css"]
+CMD ["sass", "--watch", "sass/styles.sass:css/.css"]
